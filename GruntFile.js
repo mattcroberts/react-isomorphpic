@@ -30,6 +30,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-browserify');
 
     grunt.registerTask('build', ['browserify']);
-    grunt.registerTask('default', ['build', 'uglify']);
+    grunt.registerTask('default', ['build']);
 
 };
